@@ -1,11 +1,5 @@
 library(shiny)
 
-# library(shinytest)
-# recordTest("apps/insertUI-test")
-# testApp("apps/insertUI-test")
-
-# problem: see issue rstudio/shinytest#106
-
 ui <- fluidPage(
   actionButton("add", "Add slider"),
   tags$div(id = "sliders")

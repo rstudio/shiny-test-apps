@@ -1,6 +1,10 @@
 app <- ShinyDriver$new("..")
 app$snapshotInit("mytest")
 
+# Add a pause because slow, heavily-loaded CI platforms may need extra time
+# before taking the first snapshot.
+Sys.sleep(1)
+
 # Input 'dt_rows_selected' was set, but doesn't have an input binding.
 # Input 'dt_rows_current' was set, but doesn't have an input binding.
 # Input 'dt_rows_all' was set, but doesn't have an input binding.

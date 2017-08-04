@@ -1,0 +1,46 @@
+{
+  "input": {
+    "action": "prepend",
+    "go": 2,
+    "menuName": "",
+    "navbarPage": "Test",
+    "navlistPanel": "Navlist1",
+    "position": "before",
+    "select": false,
+    "show": true,
+    "tab": "navbarMenu(\"Dropdown\",               tabPanel(\"Drop1\", \"Drop1 page\"),               tabPanel(\"Drop2\", \"Drop2 page\"),               \"------\",               \"Header\",               tabPanel(\"Drop3\", \"Drop3 page\")             )",
+    "tabset": "navbarPage",
+    "tabsetPanel_pills": "Pills1",
+    "tabsetPanel_tabs": "Tabs1",
+    "target": ""
+  },
+  "output": {
+    "tab_navbarPage": {
+      "html": "<div style=\"padding-bottom: 10px;\">\n  <code>input$navbarPage:<\/code>\n  Test\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "tab_navlistPanel": {
+      "html": "<div style=\"padding-bottom: 10px;\">\n  <code>input$navlistPanel:<\/code>\n  Navlist1\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "tab_tabsetPanel_pills": {
+      "html": "<div style=\"padding-bottom: 10px;\">\n  <code>input$tabsetPanel_pills:<\/code>\n  Pills1\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "tab_tabsetPanel_tabs": {
+      "html": "<div style=\"padding-bottom: 10px;\">\n  <code>input$tabsetPanel_tabs:<\/code>\n  Tabs1\n<\/div>",
+      "deps": [
+
+      ]
+    }
+  },
+  "export": {
+
+  }
+}
